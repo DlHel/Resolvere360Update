@@ -1,0 +1,11 @@
+{
+  "version": "0.2.9",
+  "notes": "Esta versión enciende el botón de actualizar. Es la última que hay que instalar a mano: de aquí en\nadelante, cuando salga una versión nueva, la aplicación se entera sola y le ofrece instalarla.\n\n**Por qué esta hay que instalarla a mano.** Cada instalación lleva dentro la llave con que comprueba\nque una actualización viene de quien dice venir. Esa llave se cambió, y una instalación solo acepta\nlo firmado con la llave que ella conoce. Esta versión trae la nueva; desde ella, el canal funciona.\n\n**Del resto de la aplicación no cambia nada.** Si viene de la 0.2.8, todo lo que usa está igual.\n\nY si viene de la 0.2.6, esto es lo que se arregló en el camino:\n\n**Cargar la carpeta del SII ya no dice en verde que no pasó nada.** Los archivos cuyo mes no tiene\nperíodo contable abierto se quedan fuera —eso siempre fue así y es correcto—, pero el aviso salía en\nel mismo verde con que la aplicación anuncia que todo salió bien, y empezaba diciendo «Se cargaron 0\ndocumento(s)». Parecía que el programa no reconocía los archivos. Los reconocía: los leía, veía que\nel mes estaba cerrado y lo decía con el color equivocado.\n\nAhora ese caso sale en ámbar, la frase empieza por lo que ocurrió, y nombra cada archivo con su\nmotivo. Lo que hay que hacer es abrir el período contable del mes de esos archivos —en **Clientes**,\nen las acciones del contribuyente, «Abrir período»— y volver a cargar la carpeta. El programa saca\nel mes del **nombre del archivo**, no del período que usted tenga elegido arriba.",
+  "pub_date": "2026-09-08T16:07:00Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRTWFtZ1V3bEJJOFR0NlpXTW5VREVJblkwRUdESnNjbXNOY0RGT0dZYkg0VjNVYmdYQ1ZxQU44S3lKZzAxUHNVTmgxYUE5MjlYdVpqRUtPTmlwYjI2YU5mS1M4UEt3RmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODgzNjE5CWZpbGU6UklTT0xWRVLDiSAzNjDCsF8wLjIuOV94NjQtc2V0dXAuZXhlCnpLMkFJak41SGVlalJUWGFNM0JPTDBmZU42Z3BWcU9qSGl0VzZMRU12VSttUnVldk8wc0dpMWVRak91WkhZUnVWYnBONm9VMXBuUktCOVRZWll1SEFnPT0K",
+      "url": "https://github.com/DlHel/Resolvere360Update/releases/download/v0.2.9/risolvere-360_0.2.9_x64-setup.exe"
+    }
+  }
+}
